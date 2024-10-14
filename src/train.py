@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(prog='Trainer',conflict_handler='resolve')
 
-    parser.add_argument('--data_file', type=str, default='../../data/twitter_data.csv', required=False,
+    parser.add_argument('--data_file', type=str, default='../data/twitter_data.csv', required=False,
                         help='train data')
 
     parser.add_argument('--use_fame', action='store_true',
@@ -105,7 +105,7 @@ if __name__ == '__main__':
     parser.add_argument('--distillation_kl_weight', type=float, default=0.5, required=False,
                         help='weight for KL divergence loss between student encoder and teacher')
 
-    parser.add_argument('--model_save_path', type=str, default='../../models/', required=False,
+    parser.add_argument('--model_save_path', type=str, default='../models/', required=False,
                         help='model save path')
 
     parser.add_argument('--wandb_logging', action='store_true',
