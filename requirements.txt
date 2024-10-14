@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+python-dotenv
+scikit-learn
+tokenizers
+torch
+tqdm
+transformers
+wandb
